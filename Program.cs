@@ -29,10 +29,10 @@ namespace CSrockpaperscissors
             {
                 userTurn = 3;
             }
-            else
-            {
-                Console.WriteLine("Enter either rock, paper, or scissors");
-            }
+            // else
+            // {
+            //     Console.WriteLine("Enter either rock, paper, or scissors");
+            // }
 
 
             while (play)
@@ -69,25 +69,36 @@ namespace CSrockpaperscissors
                     {
                         Console.WriteLine("You Won this one");
                     }
-                    if (userTurn == 2)
-                    {
-                        if (computerTurn == 1)
-                        {
-                            Console.WriteLine("You lost this one");
-                        }
-                    }
-
-
-
-
-                    else
-                    {
-                        play = false;
-                    }
-                    numberGames--;
-
                 }
-                System.Console.WriteLine("Thanks for Playing");
+                if (userTurn == 2)
+                {
+                    if (computerTurn == 1)
+                    {
+                        Console.WriteLine("You won this one");
+                    }
+                    else if (computerTurn == 3)
+                    {
+                        Console.WriteLine("You Lost this one");
+                    }
+                }
+                if (userTurn == 3)
+                {
+                    if (computerTurn == 1)
+                    {
+                        Console.WriteLine("You Lost this one");
+                    }
+                    else if (computerTurn == 2)
+                    {
+                        Console.WriteLine("You won this one");
+                    }
+                }
+                else
+                {
+                    play = false;
+                }
+                numberGames--;
             }
+            System.Console.WriteLine("Thanks for Playing");
         }
     }
+}
