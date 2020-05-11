@@ -53,44 +53,41 @@ namespace CSrockpaperscissors
                 }
 
                 System.Console.WriteLine("choose: rock, paper, or scissors");
-                string userTurn = Console.ReadLine();
+                //userTurn = Console.ReadLine();
 
                 if (userTurn == computerTurn)
                 {
                     System.Console.WriteLine("Nobody Won!");
                 }
-                else if (userTurn == "rock" && computerTurn == 2)
+                if (userTurn == 1)
                 {
-                    System.Console.WriteLine("You Lost");
-                }
-                else if (userTurn == "rock" && computerTurn == 3)
-                {
-                    System.Console.WriteLine("You Won!");
-                }
-                else if (userTurn == "paper" && computerTurn == 1)
-                {
-                    System.Console.WriteLine("You won!");
-                }
-                else if (userTurn == "paper" && computerTurn == 3)
-                {
-                    System.Console.WriteLine("You Lost");
-                }
-                else if (userTurn == "scissors" && computerTurn == 1)
-                {
-                    System.Console.WriteLine("You Lost");
-                }
-                else if (userTurn == "scissors" && computerTurn == 2)
-                {
-                    System.Console.WriteLine("You Lost");
-                }
-                else
-                {
-                    play = false;
-                }
-                numberGames--;
+                    if (computerTurn == 2)
+                    {
+                        Console.WriteLine("You lost this one");
+                    }
+                    else if (computerTurn == 3)
+                    {
+                        Console.WriteLine("You Won this one");
+                    }
+                    if (userTurn == 2)
+                    {
+                        if (computerTurn == 1)
+                        {
+                            Console.WriteLine("You lost this one");
+                        }
+                    }
 
+
+
+
+                    else
+                    {
+                        play = false;
+                    }
+                    numberGames--;
+
+                }
+                System.Console.WriteLine("Thanks for Playing");
             }
-            System.Console.WriteLine("Thanks for Playing");
         }
     }
-}
