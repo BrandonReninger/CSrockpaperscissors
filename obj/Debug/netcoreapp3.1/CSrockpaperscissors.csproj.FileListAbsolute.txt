@@ -1,0 +1,13 @@
+C:\source\codeworks\CSrockpaperscissors\bin\Debug\netcoreapp3.1\CSrockpaperscissors.exe
+C:\source\codeworks\CSrockpaperscissors\bin\Debug\netcoreapp3.1\CSrockpaperscissors.deps.json
+C:\source\codeworks\CSrockpaperscissors\bin\Debug\netcoreapp3.1\CSrockpaperscissors.runtimeconfig.json
+C:\source\codeworks\CSrockpaperscissors\bin\Debug\netcoreapp3.1\CSrockpaperscissors.runtimeconfig.dev.json
+C:\source\codeworks\CSrockpaperscissors\bin\Debug\netcoreapp3.1\CSrockpaperscissors.dll
+C:\source\codeworks\CSrockpaperscissors\bin\Debug\netcoreapp3.1\CSrockpaperscissors.pdb
+C:\source\codeworks\CSrockpaperscissors\obj\Debug\netcoreapp3.1\CSrockpaperscissors.csprojAssemblyReference.cache
+C:\source\codeworks\CSrockpaperscissors\obj\Debug\netcoreapp3.1\CSrockpaperscissors.csproj.CoreCompileInputs.cache
+C:\source\codeworks\CSrockpaperscissors\obj\Debug\netcoreapp3.1\CSrockpaperscissors.AssemblyInfoInputs.cache
+C:\source\codeworks\CSrockpaperscissors\obj\Debug\netcoreapp3.1\CSrockpaperscissors.AssemblyInfo.cs
+C:\source\codeworks\CSrockpaperscissors\obj\Debug\netcoreapp3.1\CSrockpaperscissors.dll
+C:\source\codeworks\CSrockpaperscissors\obj\Debug\netcoreapp3.1\CSrockpaperscissors.pdb
+C:\source\codeworks\CSrockpaperscissors\obj\Debug\netcoreapp3.1\CSrockpaperscissors.genruntimeconfig.cache
