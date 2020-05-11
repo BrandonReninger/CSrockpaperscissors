@@ -6,16 +6,12 @@ namespace CSrockpaperscissors
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine("Hello World!");
             System.Console.WriteLine("Wanna play rock, paper, scissors? Y/N");
             string userInput = Console.ReadLine();
-
             bool play = userInput.ToLower() == "y";
-
-            // string[] turns = { "rock", "paper", "scissors" };
-            Random random = new Random();
+            // Random random = new Random();
+            // int computerTurn = random.Next(1, 3);
             int numberGames = 3;
-            int computerTurn = random.Next(1, 3);
             int userTurn = 0;
             if (userInput == "rock")
             {
@@ -52,8 +48,10 @@ namespace CSrockpaperscissors
                     continue;
                 }
 
+
                 System.Console.WriteLine("choose: rock, paper, or scissors");
-                //userTurn = Console.ReadLine();
+                Random random = new Random();
+                int computerTurn = random.Next(1, 3);
 
                 if (userTurn == computerTurn)
                 {
