@@ -36,8 +36,8 @@ namespace CSrockpaperscissors
                 if (numberGames < 1)
                 {
                     System.Console.WriteLine("Play again Y/N");
-                    string choice = Console.ReadLine();
-                    if (choice.ToLower() == "y")
+                    string choose = Console.ReadLine();
+                    if (choose.ToLower() == "y")
                     {
                         numberGames = 3;
                     }
@@ -50,6 +50,7 @@ namespace CSrockpaperscissors
 
 
                 System.Console.WriteLine("choose: rock, paper, or scissors");
+                string choice = Console.ReadLine();
                 Random random = new Random();
                 int computerTurn = random.Next(1, 3);
 
@@ -92,7 +93,7 @@ namespace CSrockpaperscissors
                 }
                 else
                 {
-                    play = false;
+                    play = true;
                 }
                 numberGames--;
             }
